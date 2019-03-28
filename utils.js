@@ -68,6 +68,12 @@ const utils = {
     if (Number(n) < 10) return '0' + n;
     return n;
   },
+  checkCut(a, b) {
+    return Math.min(a.x,b.x) <= Math.max(c.x,d.x) &&
+            Math.min(c.y,d.y) <= Math.max(a.y,b.y) &&
+            Math.min(c.x,d.x) <= Math.max(a.x,b.x) &&
+            Math.min(a.y,b.y) <= Math.max(c.y,d.y)
+  },
   getDiffData(level0) {
     level0 = (Math.abs(level0) / 1000) >> 0;
 
