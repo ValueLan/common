@@ -1,4 +1,4 @@
-var events = {};
+const events = {};
 
 const on = (name, callback) => {
 	var callbacks = events[name];
@@ -31,10 +31,9 @@ const emit = (name, ...data) => {
 	}
 }
 
-const Event = {
+
+export default {
 	on,
 	emit,
 	off
 };
-export default Event
-export { Event }
