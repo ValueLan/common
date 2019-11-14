@@ -21,25 +21,24 @@ c
     text-align:justify; /*文字分散对齐*/
 
 # 填充边距
-margin  top right bottom left  间距
-padding top right bottom left  填充
+    margin: 10px 10px 10px 10px /* top right bottom left  间距*/
+    padding: 10px 10px 10px 10px /* top right bottom left  填充*/
 
 # 背景类
-background:transparent; /*透视背景*/ 
-background-color:#F5E2EC; /*背景颜色*/ 
-background-image : url(/image/bg.gif); /*背景图片*/
+    background:transparent; /*透视背景*/ 
+    background-color:#F5E2EC; /*背景颜色*/ 
+    background-image : url(/image/bg.gif); /*背景图片*/
 
-background-repeat : repeat; /*重复排列-网页默认*/
-background-repeat : no-repeat; /*不重复排列*/
-background-repeat : repeat-x; /*在x轴重复排列*/
-background-repeat : repeat-y; /*在y轴重复排列*/
+    background-repeat : repeat; /*重复排列-网页默认*/
+    background-repeat : no-repeat; /*不重复排列*/
+    background-repeat : repeat-x; /*在x轴重复排列*/
+    background-repeat : repeat-y; /*在y轴重复排列*/
 
-# 指定背景位置
 background-position : 90% 90%; /*背景图片x与y轴的位置*/
-background-position : top; /*向上对齐*/
-background-position : buttom; /*向下对齐*/
-background-position : left; /*向左对齐*/
-background-position : right; /*向右对齐*/
-background-position : center; /*居中对齐*/
+    background-position : top; /*向上对齐*/
+    background-position : buttom; /*向下对齐*/
+    background-position : left; /*向左对齐*/
+    background-position : right; /*向右对齐*/
+    background-position : center; /*居中对齐*/
 
 
