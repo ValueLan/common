@@ -20,9 +20,12 @@
     box-shadow: 10px 10px 5px #888888; /* 需要记box-shadow 值我也是自己调 */
 # 布局类
 ## flex 布局
-    display: flex; /* flex布局 盒子 需要是 flex|inline-flex inline-flex 会让自身变成内联元素属性子类排列按flex布局  见上文 */ 
-    align-items:center;  /* 可选值 flex-start|center|flex-end|baseline */   
-    justify-content: flex-start; /*可选值 flex-start|flex-end|center|space-between|space-around*/
+    display: flex; 
+    /* flex布局 盒子 需要是 flex|inline-flex inline-flex 会让自身变成内联元素属性子类排列按flex布局  见上文 */ 
+    align-items:center;
+    /* 可选值 flex-start|center|flex-end|baseline */   
+    justify-content: flex-start;
+    /*可选值 flex-start|flex-end|center|space-between|space-around*/
 ## position布局
     等待写
 
