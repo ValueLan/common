@@ -23,11 +23,25 @@
     display: flex; 
     /* flex布局 盒子 需要是 flex|inline-flex inline-flex 会让自身变成内联元素属性子类排列按flex布局  见上文 */ 
     
-    align-items:center;
-    /* 可选值 flex-start|center|flex-end|baseline */ 
+    align-items: flex-start;
+    /*
+    align-items 默认盒子子类Y轴排列方式
+    可选值 flex-start|center|flex-end|baseline 
+    flex-start Y轴顶部排列
+    center  Y轴居中排列
+    flex-end Y轴底部排列
+    */ 
     
     justify-content: flex-start;
-    /*可选值 flex-start|flex-end|center|space-between|space-around*/
+    /*
+    justify-content 默认盒子子类X轴排列方式
+    可选值 flex-start|center|flex-end|space-between|space-around
+    flex-start 默认左侧排列
+    center  默认居中排列
+    flex-end 默认右侧排列
+    space-between 子类等分排列（最左最右不等分）
+    space-around 子类等分排列（最左最右等分）
+    */
 ## position布局
     等待写
 
