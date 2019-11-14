@@ -1,17 +1,17 @@
 # 块级元素
 1. 默认占满一行 (设置了 position float display:flex 除外)
 2. 设置宽高有效
-3. 任何元素都可以转换 块级元素 display: block;
+3. 任何元素都可以转换 块级元素 `display: block;`
 
 # 内联元素
 1. 默认不会占满一行 (内联元素跟着非块级紧跟着内联元素布局)
 2. 设置宽高无效
-3. 任何元素都可以转换 内联元素 display: inline
+3. 任何元素都可以转换 内联元素 `display: inline`
 
 # 内联块级元素
 1. 默认不会占满一行 
 2. 设置宽高有效
-3. 任何元素都可以转换 内联块级元素 display: inline-block
+3. 任何元素都可以转换 内联块级元素 `display: inline-block`
 
 
 # 盒子类(块级元素)
