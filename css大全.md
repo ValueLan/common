@@ -34,7 +34,7 @@ c
     background-repeat : repeat-x; /*在x轴重复排列*/
     background-repeat : repeat-y; /*在y轴重复排列*/
 
-background-position : 90% 90%; /*背景图片x与y轴的位置*/
+    background-position : 90% 90%; /*背景图片x与y轴的位置*/
     background-position : top; /*向上对齐*/
     background-position : buttom; /*向下对齐*/
     background-position : left; /*向左对齐*/
