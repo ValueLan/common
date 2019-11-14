@@ -1,8 +1,13 @@
+块级元素
+
+
+内联元素
+
 
 # 盒子类(块级元素)
     width: 10px; /* 宽度10px|10% */
     height: 10px; /* 高度10px|10% */
-
+    box-shadow: 10px 10px 5px #888888; /* 需要记box-shadow 值我也是自己调 */
 # 布局类
 ## flex 布局
     display: flex; /* flex布局 盒子必须是display flex */ 
