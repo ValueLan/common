@@ -3,16 +3,12 @@
 c
 
 # 文字类
-  color : #999999; /*文字颜色*/
-  font-family : 宋体,sans-serif; /*文字字体*/
-
-  font-size : 9pt; /*文字大小*/
-
-  font-style:itelic; /*文字斜体*/
-
-  line-height : 200%; /*设置行高*/
-
-  font-weight:bold; /*文字粗体*/
+>  color : #999;  /*文字颜色*/
+>  font-family : sans-serif; /*文字字体*/
+>  font-size : 9pt; /*文字大小*/
+>  font-style:itelic; /*文字斜体*/
+>  line-height : 200%; /*设置行高*/
+>  font-weight:bold; /*文字粗体*/
 
   text-decoration:line-through; /*加删除线*/
   text-decoration: overline; /*加顶线*/
