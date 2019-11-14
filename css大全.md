@@ -25,6 +25,7 @@ c
     padding: 10px 10px 10px 10px /* top right bottom left  填充*/
 
 # 背景类
+`` 
     background:transparent; /*透视背景*/ 
     background-color:#F5E2EC; /*背景颜色*/ 
     background-image : url(/image/bg.gif); /*背景图片*/
@@ -40,5 +41,9 @@ c
     background-position : left; /*向左对齐*/
     background-position : right; /*向右对齐*/
     background-position : center; /*居中对齐*/
+`` 
 
 
+`` 
+124214
+`` 
