@@ -1,12 +1,17 @@
 # 块级元素
-描述
-
+1、默认占满一行 (设置了 position float display:flex 除外)
+2、设置宽高有效
+3、任何元素都可以转换 块级元素 display: block;
 
 # 内联元素
-描述
+1、默认不会占满一行 (内联元素跟着非块级紧跟着内联元素布局)
+2、设置宽高无效
+3、任何元素都可以转换 内联元素 display: inline
 
 # 内联块级元素
-描述
+1、默认不会占满一行 
+2、设置宽高有效
+3、任何元素都可以转换 内联块级元素 display: inline-block
 
 
 # 盒子类(块级元素)
@@ -15,7 +20,7 @@
     box-shadow: 10px 10px 5px #888888; /* 需要记box-shadow 值我也是自己调 */
 # 布局类
 ## flex 布局
-    display: flex; /* flex布局 盒子必须是display flex */ 
+    display: flex; /* flex布局 盒子 需要是 flex|inline-flex inline-flex 会让自身变成内联元素属性子类排列按flex布局  见上文 */ 
     align-items:center;  /* 可选值 flex-start|center|flex-end|baseline */   
     justify-content: flex-start; /*可选值 flex-start|flex-end|center|space-between|space-around*/
 ## position布局
