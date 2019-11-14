@@ -1,7 +1,8 @@
 # 布局类
 ## flex 布局
     display: flex; /* flex布局 盒子必须是display flex */ 
-    align-items:center;  /* center|flex-start|flex-end|baseline */
+    align-items:center;  /* 可选值 flex-start|center|flex-end|baseline */   
+    justify-content: flex-start; /*可选值 flex-start|flex-end|center|space-between|space-around*/
 ## position布局
     等待写
 
