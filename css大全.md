@@ -2,8 +2,11 @@
 |描述|块级元素|内联元素|联块级元素|
 |-|-|-|-|
 |默认占满一行 | 是 | 否 | 否 |
-|| 1| 1 | |
 |宽高设置 | 有效 | 无效 | 有效|
+
+## 占位描述
+
+![avatar](https://raw.githubusercontent.com/ValueLan/common/master/assets/sort.png)
 
 
 # 块级元素
