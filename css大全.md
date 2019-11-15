@@ -3,8 +3,6 @@
 |-|-|-|-|
 |默认占满一行 | 是 | 否 | 否 |
 |宽高设置 | 有效 | 无效 | 有效|
-
-占位描述
 ![avatar](https://raw.githubusercontent.com/ValueLan/common/master/assets/sort.png)
 
 
