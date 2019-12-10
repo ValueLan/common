@@ -1,4 +1,23 @@
 const utils = {
+   async *getYield(list) {
+    let newList = {};
+    list.map((item, index) => {
+      newList[index] = Promise.resolve(item).then((data) => {
+        return { data, index }
+      })
+    });
+
+    async function* go() {
+      let val = Object.values(newList);
+      if (val.length == 0) return;
+      yield await Promise.race(val).then(({ data, index }) => {
+        delete newList[index]
+        return data;
+      })
+      yield* go();
+    }
+    return yield* go();
+  },
   formatDate(datetime, format) {
     if (!format) format = 'YYYY-MM-DD HH:mm';
     if (typeof(datetime) == 'string') {
