@@ -6,14 +6,15 @@ const utils = {
         return { data, index }
       })
     });
-
     async function* go() {
       let val = Object.values(newList);
       if (val.length == 0) return;
-      yield await Promise.race(val).then(({ data, index }) => {
-        delete newList[index]
+      let res = Promise.race(val).then(({ data, index }) => {
+        delete newList[index];
         return data;
       })
+      yield res;
+      await res
       yield* go();
     }
     return yield* go();
