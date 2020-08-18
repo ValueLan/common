@@ -55,10 +55,14 @@ const utils = {
     });
   },
   dataReplace(str, data) {
-    return str.replace(/{([^}]+)}/g, function(item, $1) {
-      if (data[$1]) return data[$1];
-      return item
-    });
+    return str.replace(/\${([^}]+)}/g, function (item, $1) {
+      try {
+        var fn = new Function('data', `return data.${$1}`);
+        return fn(data)
+      } catch (e) {
+        return item
+      }
+    })
   },
   formatCoin(number) {
     number = (number * 1 || 0);
