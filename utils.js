@@ -88,10 +88,6 @@ const utils = {
       type: mime
     });
   },
-  doubleNumber(n) {
-    if (Number(n) < 10) return '0' + n;
-    return n;
-  },
   checkCut(a, b) {
     return Math.min(a.x,b.x) <= Math.max(c.x,d.x) &&
             Math.min(c.y,d.y) <= Math.max(a.y,b.y) &&
